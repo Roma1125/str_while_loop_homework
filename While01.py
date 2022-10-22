@@ -9,7 +9,7 @@ def main(s):
     t=0
     i=0
     while t<=len(s)-1:
-        if s[t].isdigit():
+        if s[t].isdigit(): 
             i+=1
         t+=1
         
