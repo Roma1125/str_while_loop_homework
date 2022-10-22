@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    t=0
+    i=0
+    while t<=len(s)-1:
+        if s[t].isalpha(): 
+            i+=1
+        t+=1
+        
+      
+    return i
+print(main('salom1234'))
