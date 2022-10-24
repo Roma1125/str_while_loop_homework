@@ -8,11 +8,11 @@ def main(s):
         int: return answer
     """
     t=0
-    i=0
+    answer=0
     s=s.lower()
     while t<len(s):
         if s[t].isalpha and s[t]!='a' and s[t]!='e' and s[t]!='i' and s[t]!='o' and s[t]!='u' :
-            i+=1
+            answer+=1
         t+=1
-    return i
+    return answer
 print(main('salom'))
