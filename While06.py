@@ -11,7 +11,7 @@ def main(s):
     i=0
     s=s.lower()
     while t<len(s):
-        if s[t]!='a' and s[t]!='e' and s[t]!='i' and s[t]!='o' and s[t]!='u' :
+        if s[t].isalpha and s[t]!='a' and s[t]!='e' and s[t]!='i' and s[t]!='o' and s[t]!='u' :
             i+=1
         t+=1
     return i
