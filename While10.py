@@ -1,9 +1,16 @@
 def main(s):
     """
-    A string of numbers is given. Find and return the sum of all odd numbers.
+    A string of numbers is given. Find how many even numbers there are and return.
     Args:
         s: str
     Returns:
         int: return answer
     """
-    return
+    t=0
+    i=0
+    while t<=len(s)-1:
+        if  int(s[t])%2==1:
+            i+=int(s[t])
+        t+=1
+    return i 
+print(main('12345678'))
