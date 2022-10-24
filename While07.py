@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    t=0
+    i=0
+    while t<=len(s)-1:
+        if  int(s[t])%2==0:
+            i+=1
+        t+=1
+    return i 
+print(main('12345678'))
